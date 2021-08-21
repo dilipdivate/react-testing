@@ -8,6 +8,7 @@ function App() {
 
   return (
     <div className="App-local">
+
         <button style={{backgroundColor: buttonColor}} onClick={() => setButtonColor(newButtonColor)}>Change to {newButtonColor}</button>
     </div>
   );
